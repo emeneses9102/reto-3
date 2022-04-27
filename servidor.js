@@ -7,8 +7,8 @@ const PORT = 8080
 
 let container = new contenedor('./productos.txt')
 
-let random = () =>{
-    var num = Math.random() * (3);
+let random = (tamaño) =>{
+    var num = Math.random() * (tamaño);
     return Math.floor(num) 
   }
     
